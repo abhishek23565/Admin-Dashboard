@@ -1,0 +1,400 @@
+.dashboard-container {
+  //Desktop CSS starts here
+  padding: 0 4rem;
+
+  // dashboard header section CSS
+  .dashboard-header {
+    width: 100%;
+    padding: 1rem 0;
+
+    .d-header-input-container {
+      svg {
+        font-size: 20px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background: #fff;
+        padding: 5px;
+      }
+    }
+  }
+
+  // dashboard cards section CSS
+  .my-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .my-col-3 {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      padding: 2rem 10px;
+      width: 22%;
+
+      .my-icon {
+        border-radius: 50%;
+
+        svg {
+          font-size: 50px;
+          padding: 1.5rem;
+        }
+      }
+
+      .my-icon1 {
+        background-color: rgb(218 238 218);
+        svg {
+          color: rgb(49, 161, 49);
+        }
+      }
+
+      .my-icon2 {
+        background-color: #c5a7e9;
+        svg {
+          color: rgb(91 32 151);
+        }
+      }
+
+      .my-icon3 {
+        background-color: #a7e0e9;
+        svg {
+          color: #1a6aa1;
+        }
+      }
+
+      .my-icon4 {
+        background-color: #eecce2;
+        svg {
+          color: #ce3030;
+        }
+      }
+
+      .my-text {
+        padding: 0 10px;
+        p.muted-text {
+          margin-bottom: 0;
+        }
+        h3 {
+          margin: 0;
+          font-size: 20px;
+        }
+        p {
+          margin-top: 0;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  // dashboard overview and customer section CSS
+  .overcus-container {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    .overview-container {
+      width: 70%;
+      background-color: #fff;
+      border-radius: 8px;
+
+      .overview-header {
+        padding: 0 2rem;
+
+        .overview-header-left {
+          h3 {
+            margin-bottom: 0;
+          }
+          p.muted-text {
+            margin-top: 0;
+          }
+        }
+      }
+
+      .overview-chart {
+        padding: 0 2rem;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+
+        .chart-bars {
+          width: 50px;
+          border-radius: 15px;
+          background-color: rgb(234 226 242);
+          position: relative;
+
+          .chart-bars-inner {
+            width: 100%;
+            background-color: #3f3fd2;
+            border-radius: 15px;
+            position: absolute;
+            bottom: 0;
+          }
+        }
+      }
+    }
+
+    .customer-container {
+      width: 27%;
+      background-color: #fff;
+      border-radius: 8px;
+
+      .customer-heading {
+        padding: 0 2rem;
+
+        h3 {
+          margin-bottom: 0;
+        }
+        p.muted-text {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  //dashboard product sell section CSS
+  .product-container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    .p-header {
+      .p-header-left {
+        padding-left: 2rem;
+      }
+
+      .p-header-right {
+        padding-right: 2rem;
+        width: 24%;
+
+        .p-header-input-container {
+          svg {
+            font-size: 20px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            background: #f2f4f6;
+            padding: 5px;
+          }
+          input {
+            background-color: #f2f4f6;
+            width: 60%;
+          }
+        }
+      }
+    }
+
+    .my-product-table {
+      .mpt-header.border-none {
+        border: none;
+      }
+
+      .mpt-header {
+        padding: 0.5rem 2rem;
+        border-bottom: 2px solid #f2f4f6;
+
+        .mpth-left {
+          .mpth-left-image {
+            img {
+              width: 80px;
+              height: 50px;
+              border-radius: 5px;
+            }
+          }
+          .mpth-left-text {
+            padding: 0 1rem;
+            h4 {
+              margin: 0;
+            }
+            p {
+              margin-top: 0;
+            }
+          }
+        }
+
+        .mpth-right {
+          width: 24%;
+        }
+      }
+    }
+  }
+}
+
+//Mobile CSS starts here
+@media screen and (max-width: 480px) {
+  .dashboard-container {
+    padding: 0 1rem;
+
+    //dashboard header mobile css
+    .dashboard-header {
+      overflow: hidden;
+      .d-header-heading-container {
+        h3 {
+          font-size: 18px;
+        }
+      }
+      .d-header-input-container {
+        input {
+          width: 80px;
+        }
+      }
+    }
+
+    //dashboard cards mobile css
+    .my-row {
+      flex-direction: column;
+
+      .my-col-3 {
+        width: 100%;
+        padding: 2rem 0;
+        margin-bottom: 20px;
+        overflow: hidden;
+
+        .my-icon {
+          border-radius: 50%;
+
+          svg {
+            padding: 1rem;
+          }
+        }
+      }
+    }
+
+    //dashboard customer and overview section mobile css
+    .overcus-container {
+      display: flex;
+      flex-direction: column;
+
+      .overview-container {
+        width: 100%;
+
+        .overview-header {
+          overflow: hidden;
+          padding: 0 1rem;
+        }
+
+        .overview-chart {
+          padding: 0 1rem;
+          overflow: hidden;
+
+          .chart-bars {
+            width: 10px;
+            border-radius: 5px;
+          }
+
+          p {
+            font-size: 8px;
+          }
+        }
+      }
+
+      .customer-container {
+        margin: 20px 0;
+        width: 100%;
+        overflow: hidden;
+
+        .customer-heading {
+          padding: 0 1rem;
+        }
+      }
+    }
+
+    //dashboard product sell section mobile css
+    .product-container {
+      .p-header {
+        overflow: hidden;
+        flex-direction: column;
+        align-items: flex-start;
+        .p-header-left {
+          padding: 0 1rem;
+        }
+
+        .p-header-right {
+          padding: 0 1rem;
+          width: 100%;
+
+          .p-header-input-container {
+            width: 50%;
+          }
+
+          .p-header-select-container {
+            width: 50%;
+          }
+        }
+      }
+
+      .my-product-table {
+        .mpt-header.border-none {
+          border: none;
+        }
+
+        .mpt-header {
+          padding: 0.5rem 1rem;
+          border-bottom: 2px solid #f2f4f6;
+
+          .mpth-left {
+            flex-direction: column;
+            align-items: flex-start;
+            width: 35%;
+            .mpth-left-image {
+              img {
+                width: 60px;
+                height: 40px;
+                border-radius: 5px;
+              }
+            }
+            .mpth-left-text {
+              padding: 0;
+              h4 {
+                font-size: 12px;
+              }
+              p {
+                font-size: 8px;
+              }
+            }
+          }
+
+          .mpth-right {
+            width: 60%;
+            p {
+              font-size: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//Mobile CSS ends here
+
+// utility classes
+.muted-text {
+  color: #ccc;
+  font-size: 12px;
+}
+
+input {
+  height: 30px;
+  outline: none;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+select {
+  border: none;
+  outline: none;
+  background-color: #f2f4f6;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sp-btwn-d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.border-none {
+  border: none;
+}
