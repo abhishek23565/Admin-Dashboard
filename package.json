@@ -1,6 +1,6 @@
 {
   "name": "fitpeo-dashboard-assessment",
-  "homepage": "https://github.com/abhishek23565/admin-dashboard.git",
+  "homepage": "https://github.com/abhishek23565/admin-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
