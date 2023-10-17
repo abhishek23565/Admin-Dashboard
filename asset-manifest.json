@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/admin-dashboard/dashboard/static/css/main.f78f0baa.css",
-    "main.js": "/admin-dashboard/dashboard/static/js/main.de55768f.js",
-    "static/js/787.ff98dd28.chunk.js": "/admin-dashboard/dashboard/static/js/787.ff98dd28.chunk.js",
-    "static/media/sunMountain.jpg": "/admin-dashboard/dashboard/static/media/sunMountain.bed174327c4a187ccff8.jpg",
-    "static/media/greenMountain.jpg": "/admin-dashboard/dashboard/static/media/greenMountain.e74c0434c8b5d1fdd4ac.jpg",
-    "index.html": "/admin-dashboard/dashboard/index.html",
-    "main.f78f0baa.css.map": "/admin-dashboard/dashboard/static/css/main.f78f0baa.css.map",
-    "main.de55768f.js.map": "/admin-dashboard/dashboard/static/js/main.de55768f.js.map",
-    "787.ff98dd28.chunk.js.map": "/admin-dashboard/dashboard/static/js/787.ff98dd28.chunk.js.map"
+    "main.css": "/admin-dashboard/static/css/main.f78f0baa.css",
+    "main.js": "/admin-dashboard/static/js/main.697e34a3.js",
+    "static/js/787.ff98dd28.chunk.js": "/admin-dashboard/static/js/787.ff98dd28.chunk.js",
+    "static/media/sunMountain.jpg": "/admin-dashboard/static/media/sunMountain.bed174327c4a187ccff8.jpg",
+    "static/media/greenMountain.jpg": "/admin-dashboard/static/media/greenMountain.e74c0434c8b5d1fdd4ac.jpg",
+    "index.html": "/admin-dashboard/index.html",
+    "main.f78f0baa.css.map": "/admin-dashboard/static/css/main.f78f0baa.css.map",
+    "main.697e34a3.js.map": "/admin-dashboard/static/js/main.697e34a3.js.map",
+    "787.ff98dd28.chunk.js.map": "/admin-dashboard/static/js/787.ff98dd28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f78f0baa.css",
-    "static/js/main.de55768f.js"
+    "static/js/main.697e34a3.js"
   ]
 }
