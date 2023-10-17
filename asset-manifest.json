@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/admin-dashboard/static/css/main.eb6b92e9.css",
-    "main.js": "/admin-dashboard/static/js/main.587cdbcf.js",
-    "static/js/787.bc0228f1.chunk.js": "/admin-dashboard/static/js/787.bc0228f1.chunk.js",
+    "main.css": "/admin-dashboard/static/css/main.f78f0baa.css",
+    "main.js": "/admin-dashboard/static/js/main.697e34a3.js",
+    "static/js/787.ff98dd28.chunk.js": "/admin-dashboard/static/js/787.ff98dd28.chunk.js",
     "static/media/sunMountain.jpg": "/admin-dashboard/static/media/sunMountain.bed174327c4a187ccff8.jpg",
     "static/media/greenMountain.jpg": "/admin-dashboard/static/media/greenMountain.e74c0434c8b5d1fdd4ac.jpg",
     "index.html": "/admin-dashboard/index.html",
-    "main.eb6b92e9.css.map": "/admin-dashboard/static/css/main.eb6b92e9.css.map",
-    "main.587cdbcf.js.map": "/admin-dashboard/static/js/main.587cdbcf.js.map",
-    "787.bc0228f1.chunk.js.map": "/admin-dashboard/static/js/787.bc0228f1.chunk.js.map"
+    "main.f78f0baa.css.map": "/admin-dashboard/static/css/main.f78f0baa.css.map",
+    "main.697e34a3.js.map": "/admin-dashboard/static/js/main.697e34a3.js.map",
+    "787.ff98dd28.chunk.js.map": "/admin-dashboard/static/js/787.ff98dd28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb6b92e9.css",
-    "static/js/main.587cdbcf.js"
+    "static/css/main.f78f0baa.css",
+    "static/js/main.697e34a3.js"
   ]
 }
