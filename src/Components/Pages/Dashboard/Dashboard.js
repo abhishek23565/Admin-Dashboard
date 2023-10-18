@@ -213,12 +213,21 @@ const Dashboard = () => {
             <h3>Customers</h3>
             <p className={`${Classes['muted-text']}`}>Customers that buy products</p>
           </div>
-          <div>
-            <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="100" cy="100" r="80" fill="none" stroke="#ddd" stroke-width="20"></circle>
-              <circle cx="100" cy="100" r="80" fill="none" stroke="violet" stroke-width="40" stroke-dasharray="100" transform="rotate(45 100 100)"></circle>
-              <circle cx="100" cy="100" r="80" fill="none" stroke="blue" stroke-width="30" stroke-dasharray="80" transform="rotate(135 100 100)"></circle>
-            </svg>
+          <div className={`${Classes['circular-chart-container']}`}>
+            <div className={`${Classes['circular-chart-inner-container']}`}>
+              <div className={`${Classes['circular-chart-text']}`}>
+                <h3>65%</h3>
+                <p>Total new <br/> Customers</p>
+              </div>
+
+              <div className={`${Classes['circular-chart-svg']}`}>
+                <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="100" cy="100" r="80" fill="none" stroke="#ddd" strokeWidth="20"></circle>
+                  <circle cx="100" cy="100" r="80" fill="none" stroke="#1a6aa1" strokeWidth="30" strokeDasharray="200" transform="rotate(30 100 100)"></circle>
+                  <circle cx="100" cy="100" r="80" fill="none" stroke="#eecce2" strokeWidth="40" strokeDasharray="70, 280" transform="rotate(50 100 100)"></circle>
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
       </div>

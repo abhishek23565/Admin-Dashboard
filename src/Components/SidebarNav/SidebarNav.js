@@ -1,10 +1,11 @@
 import { TbHexagonLetterD, TbUserSquare, TbHelpSquare, TbWallet, TbCube, TbSquareKey } from "react-icons/tb";
 import { LuBadgePercent } from "react-icons/lu";
+import { IoIosArrowDown } from "react-icons/io";
 import Classes from './SidebarNav.module.scss';
 import { NavLink } from "react-router-dom";
 import { Fragment, useState } from "react";
+import userImage from '../../Assets/user.jpg';
 import '../../App.css';
-// import Utilities from "../_Utilities.module.scss";
 
 const SidebarNav = () => {
 
@@ -71,6 +72,22 @@ const SidebarNav = () => {
               );
             })        
             }
+          </div>
+        </div>
+
+        <div className={isOpen ? `${Classes['user-container']}` : `${Classes['closedUserWidth']} ${Classes['user-container']}`}>
+          <div className={`${Classes['user-data']}`}>
+            <div className={`${Classes['user-image']}`}>
+              <img src={userImage} alt="User Profile"/>
+            </div>
+            {isOpen && <div className={`${Classes['user-about']}`}>
+                <p>Evano</p>
+                <p className={`${Classes['muted-text']}`}>Project Manager</p>
+              </div>
+            }            
+          </div>
+          <div className={`${Classes['user-drop-icon']}`}>
+            <IoIosArrowDown/>
           </div>
         </div>
       </div>
